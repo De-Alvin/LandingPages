@@ -1,0 +1,134 @@
+:root{
+    --primary-color--:blue;
+    --bg-color--:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    background-color: var(--primary-color--);
+    line-height: 1.6;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+    background: var(--bg-color--);
+    box-shadow: 0 2px 4px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.nav-links a:hover{
+    color: blue;
+}
+.hero{
+    padding: 5rem 0;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+.hero content .hightlight{
+    color: var(--primary-color--);
+}
+.hero-content p{
+    font-size: 1.1rem;
+    color: grey;
+    margin-bottom: 2rem;
+}
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+.primary{
+    padding: 1rem 1.5rem;
+    background-color: purple;
+    color: white;
+}
+.primary:hover{
+    background-color: #000000;
+    transform: scale(1.01);
+    transition: .2s;
+    color: yellow;
+}
+.secondary:hover{
+    background-color: #000000;
+    transform: scale(1.01);
+    transition: .2s;
+    color: yellow;
+}
+.hero-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.pp{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px black ;
+    border: 2px solid purple;
+}
+/* .tentang-container { 
+    padding: 5rem 0;
+    margin: top 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.tentang-container h1{
+    border-bottom: 2px solid purple;
+}
+.tentang-container p{
+    padding-top: 2rem;
+}*/
